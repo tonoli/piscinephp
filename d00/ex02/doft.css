@@ -1,0 +1,95 @@
+body {
+    background-color: #505050;
+	background-image: url("./resources/doft.jpg");
+	background-repeat: no-repeat;
+}
+.wraper {
+	text-align: center;
+}
+.container {
+    text-align: center;
+    background-color: #909090;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 12px 12px 16px -1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 12px 12px 16px -1px rgba(0, 0, 0, 1);
+    box-shadow: 12px 12px 16px -1px rgba(0, 0, 0, 1);
+}
+
+#header {
+
+	position: relative;
+	width: 1600px;
+	height: 140px;
+	background-image: url("resources/day_of_the_42.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20%;
+}
+.nav img {
+	position: relative;
+    width: 20px;
+    height: 20px;
+}
+#close {
+	margin-top: 90px;
+}
+#reload {
+	margin-top: 30px; 
+}
+#search {
+	position: absolute;
+	float: right;
+	margin-left: 500px;
+	margin-top: 50px;
+	width:
+}
+
+#sider-left {
+    float: left;
+    display: inline-block;
+}
+
+#sider-left img {
+    display: list-item;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10%;
+	width: 90px;
+	height: 90px;
+}
+
+#oeil {
+	border:6px solid red;
+	border-radius: 5px;
+}
+
+#image {
+	padding: 20px;
+    float: left;
+    display: inline-block;
+}
+#image img {
+
+}
+
+#sider-right {
+
+    float: left;
+    display: inline-block;
+}
+
+#sider-right img {
+    display: list-item;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10%;
+	width: 70px;
+	height: 80px;
+}
+#wall {
+	background-image: url("./resources/brick.png");
+	background-repeat: repeat;
+}
