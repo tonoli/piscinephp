@@ -31,28 +31,44 @@ a {
 
 	font-family: 'Cabin', sans-serif;
 }
-
-#first li{
-	display: none;
-	text-align: left;
-	list-style-type: none;
-}
-
-#menu ul li :hover #first li{
-	display: list-item;
-	text-align: center;
-	list-style-type: none;
-}
-
-li {
-	margin: auto;
-	background-color: white;
-	padding: 3%;
-	list-style-type: none;
-}
 nav {
 	margin: auto;
-	text-align: center;
 	background-color: #c3c3c3;
 	max-width: 300px;
+}
+
+#first > a {
+	color:white;
+}
+#first {
+  margin-right: 42px;
+}
+#toogle li{
+  display: none;
+  margin-left: -40px;
+  float: left;
+  width: 200px;
+  text-align: left;
+	background-color: white;
+	list-style-type: none;
+}
+nav:hover #toogle li{
+  display:block !important;
+}
+
+#menu ul li ul a{
+	padding: 3%;
+	display: block;
+  	margin : auto;
+	list-style-type: none;
+}
+
+#menu ul li ul li :hover{
+  margin : -5;
+  background: lightgrey;
+  display: block;
+}
+#first {
+  list-style-type: none;
+  background-color:#c3c3c3;
 }
