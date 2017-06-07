@@ -152,6 +152,9 @@ body {
 	font-style: italic;
 	margin-bottom: 5px;
 }
+#ordinateur {
+	text-shadow: 2px 2px red;
+}
 .label {
 	width: 68%;
 	height: auto;
