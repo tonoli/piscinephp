@@ -53,7 +53,7 @@ nav {
 	list-style-type: none;
 }
 nav:hover #toogle li{
-  display:block !important;
+  display:block;
 }
 
 #menu ul li ul a{
