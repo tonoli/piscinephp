@@ -1,11 +1,16 @@
 #!/usr/bin/php
 <?php
-
-$a=0;
-
 while ($a < 100)
 {
-	echo "X";
+	if ($a == 99)
+	{
+		echo "X\n";
+	}
+
+	else
+	{
+		echo "X";
+	}
 	$a++;
 }
 ?>
