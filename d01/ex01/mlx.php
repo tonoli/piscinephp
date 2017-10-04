@@ -1,8 +1,8 @@
 #!/usr/bin/php
 <?php
-while ($a < 100)
+while ($a < 1000)
 {
-	if ($a == 99)
+	if ($a == 999)
 	{
 		echo "X\n";
 	}
