@@ -1,6 +1,5 @@
 #!/usr/bin/php
 <?php
-	$array = [];
 	$endArray = [];
 	foreach ($argv as $key => $elem){
 		if ($key != NULL || $key != FALSE || $key != "") {
