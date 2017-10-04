@@ -2,13 +2,10 @@
 <?php
 while ($a < 1000)
 {
-	if ($a == 999)
-	{
+	if ($a == 999) {
 		echo "X\n";
 	}
-
-	else
-	{
+	else {
 		echo "X";
 	}
 	$a++;
