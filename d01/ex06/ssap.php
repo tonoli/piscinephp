@@ -2,18 +2,17 @@
 <?php
 	$array = [];
 	$endArray = [];
-	foreach ($argv as $key => $elem)
-	{
-		if ($key != 0)
-		{
-			$array = array_filter(array_map('trim', explode(' ', $elem)));
+	foreach ($argv as $key => $elem){
+		if ($key != NULL || $key != FALSE || $key != "") {
+			$array = array_filter(array_map("trim", explode(' ', $elem)), 'strlen');
 			foreach ($array as $key => $elem) {
 				array_push($endArray, $elem);
 			}
 		}
 	}
-	sort($endArray);
+	print_r($endArray);
+	sort($endArray, SORT_STRING);
 	foreach ($endArray as $key => $elem) {
-		echo $elem."\n";
+	echo $elem."\n";
 	}
 ?>
