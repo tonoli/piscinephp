@@ -10,7 +10,6 @@
 			}
 		}
 	}
-	print_r($endArray);
 	sort($endArray, SORT_STRING);
 	foreach ($endArray as $key => $elem) {
 	echo $elem."\n";
