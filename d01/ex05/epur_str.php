@@ -1,10 +1,6 @@
 #!/usr/bin/php
 <?php
-	$array = array_map("trim", explode(' ', $str));
-	foreach ($array as $elem) {
-		if ($str == '')
-			$str = $elem;
-		$str = $str." ".$elem;
-	}
-	echo $str."\n";
+		$array = array_filter(array_map("trim", explode(' ', $argv[1])), 'strlen');
+		$str = implode (' ', $array);
+		echo $str."\n";
 ?>
