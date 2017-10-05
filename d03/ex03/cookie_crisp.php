@@ -7,7 +7,7 @@ if ($_GET['action'] === "set")
 } else if ($_GET['action'] === "get")
 {
 	if ($_GET['name'] && $_COOKIE[$_GET['name']]){
-		echo $_COOKIE[$_GET['name']] . "\n";
+		echo $_COOKIE[$_GET['name']]."\n";
 	}
 } else if ($_GET['action'] === "del"){
 	if ($_GET['name']){
