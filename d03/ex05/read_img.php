@@ -1,4 +1,4 @@
 <?php
-	header('Content-Type: iamge/png');
-	readfile('img/42.png');
+	header('Content-Type: image/png');
+	readfile('../img/42.png');
 ?>
