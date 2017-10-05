@@ -1,4 +1,4 @@
-<?php 
+<?php
 	header('Content-Type: iamge/png');
-	readfile('img/42.pdf');
+	readfile('img/42.png');
 ?>
